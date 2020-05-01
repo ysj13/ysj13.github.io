@@ -1,8 +1,7 @@
 title: 하루의 마무리
 email: yoonsj913@gmail.com
-description: >
-  Mekyll - Medium-style theme for Jekyll
-baseurl: "/Mekyll" # the subpath of your site, e.g. /blog
+description: 기록
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ysj13.github.io" # the base hostname & protocol for your site
 postCount: 5 # the number of posts on the "index" page
 
