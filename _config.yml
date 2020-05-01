@@ -1,13 +1,13 @@
-title: Mekyll theme demo
-email: 
+title: 하루의 마무리
+email: yoonsj913@gmail.com
 description: >
   Mekyll - Medium-style theme for Jekyll
 baseurl: "/Mekyll" # the subpath of your site, e.g. /blog
-url: "http://ifedyukin.github.io" # the base hostname & protocol for your site
+url: "http://ysj13.github.io" # the base hostname & protocol for your site
 postCount: 5 # the number of posts on the "index" page
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 permalink   : /:year/:title/
 source: ./
