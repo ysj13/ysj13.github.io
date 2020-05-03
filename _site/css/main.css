@@ -16,6 +16,9 @@ body {
     height: 100%;
     background-color: #FAFAFA;
 }
+body * {
+    transition: all 0.3s ease;
+}
 
 #header {
     width: 100%;
@@ -37,6 +40,12 @@ body {
     width: 100%;
     margin: -12px auto;
     padding-top: 42px;
+}
+#container .extremeHero-container {
+    max-width: 1032px;
+}
+#container .extremeHero-postContent {
+    margin-left: 0;
 }
 
 #header__info h1 {
@@ -63,7 +72,6 @@ body {
 #header__info img {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
     float: right;
     margin-top: -145px;
     margin-right: 12px;
@@ -149,6 +157,9 @@ body {
 .post__postfix a:hover {
     color: rgba(0, 0, 0, .6);
 }
+.streamItemHeading a:hover > span {
+    color: rgba(0, 0, 0, .84) !important;
+}
 
 .more_posts {
     background-color: #FFFFFF;
@@ -158,6 +169,11 @@ body {
     text-align: center;
     font-size: 1.3em;
     padding: 5px;
+}
+
+#container .streamItem a.link:hover > img {
+    box-shadow: 0 0 8px -3px;
+    transform: scale(1.02);
 }
 
 .more_posts a {
@@ -180,6 +196,13 @@ body {
     margin: 0 !important;
     color: rgba(0, 0, 0, .8);
     font-size: 1.8em;
+}
+#container .streamItem > .extremePostPreview {
+    padding: 10px;
+    margin-bottom: 30px !important;
+}
+#container .streamItem > .extremePostPreview:hover {
+    background-color: rgba(0, 0, 0, .15);
 }
 
 #single {
